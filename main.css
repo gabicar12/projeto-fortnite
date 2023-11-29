@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 .container {
@@ -13,19 +14,20 @@
 
 /* HEADER */
 header {
-    padding: 25px 0;
+    padding: 28px 0;
     background-color: #0F0F0F;
     color: #FFF;
 }
 
 header .menu {
-    margin-left: 600px;
+    margin-left: 370px;
 }
 
 header nav li {
     display: inline;
-    margin-left: 16px;
-    font-size: 18px;
+    margin-left: 40px;
+    font-size: 24px;
+    text-transform: uppercase;  
 }
 
 header nav li a {
@@ -42,4 +44,101 @@ header .container {
     align-items: center;
     justify-content: space-between;
 }
+
+header .btn-baixar button {
+    font-size: 24px;
+    background-color: #FFFF00;
+    color: #0F0F0F;
+    text-align: center;
+    text-transform: uppercase; 
+    border: none;
+    padding: 10px 40px;  
+    cursor: pointer;
+}
+
+header .btn-baixar button:hover {
+    transform: scale(1.05);
+    transition: .1s;
+}
+
+/* SOBRE */
+section {
+    padding: 70px 0;
+    color: #FFF;
+    background-color: black;
+}
+
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    font-weight: normal;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.brands-list li img {
+    margin-top: 20px;
+}
+
+.img-bigbang {
+    margin-right: 32px;
+}
+
+.btn-about .btn-saiba, .btn-assista {
+    display: inline-block;
+}
+
+.btn-about .btn-saiba button {
+    font-size: 24px;
+    background-color: #FFFF00;
+    color: #0F0F0F;
+    text-align: center;
+    text-transform: uppercase; 
+    border: none;
+    padding: 10px 40px;  
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.btn-about .btn-saiba button:hover {
+    transform: scale(1.05);
+    transition: .1s;
+}
+
+.btn-about .btn-assista button {
+    font-size: 24px;
+    background-color: #1e1e1e;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 40px;  
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.btn-about .btn-assista button:hover {
+    transform: scale(1.05);
+    transition: .1s;
+}
+
+
 
