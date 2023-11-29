@@ -253,6 +253,19 @@ input:focus, textarea:focus {
     margin-top: 16px;
 }
 
+/* FOOTER */
+footer {
+    background-color: #0F0F0F;
+    padding: 16px 0;    
+}
+
+footer p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #a6a6a6;
+}
+
 
 
 
