@@ -62,7 +62,7 @@ header .btn-baixar button:hover {
 }
 
 /* SOBRE */
-section {
+section.about {
     padding: 70px 0;
     color: #FFF;
     background-color: black;
@@ -98,7 +98,7 @@ section p {
 }
 
 .img-bigbang {
-    margin-right: 32px;
+    margin-right: 50px;
 }
 
 .btn-about .btn-saiba, .btn-assista {
@@ -139,6 +139,122 @@ section p {
     transform: scale(1.05);
     transition: .1s;
 }
+
+/* CONTATO */
+section.contact {
+    padding: 50px 0;
+    background-color: #1E1E1E;
+}
+
+.contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #0E0E0F;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+.contact h2 {
+    color: #FFFF00;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.contact h3 {
+    margin-bottom: 16px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #FFFF00;
+    color: #1E1E1E;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+form button:hover {
+    transform: scale(1.02);
+    transition: .1s;
+}
+
+input:focus, textarea:focus {
+    outline-color: #FFFF00;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 13px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.menu-contato {
+    margin-top: 70px;
+}
+
+.menu-contato li {
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+.menu-contato li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #a6a6a6;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu-contato li a:hover {
+    color: #FFF;
+}
+
+.contact h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact p {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+
 
 
 
