@@ -65,7 +65,9 @@ header .btn-baixar button:hover {
 section.about {
     padding: 70px 0;
     color: #FFF;
-    background-color: black;
+    background-image: url(images/galaxy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section .container {
@@ -82,7 +84,7 @@ section h2 {
 }
 
 section p {
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
     font-size: 18px;
@@ -94,7 +96,7 @@ section p {
 }
 
 .brands-list li img {
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 .img-bigbang {
