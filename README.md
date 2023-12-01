@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
- <img src=".github\logo1.svg" alt="Mocku" width=250px></a>
+ <img src=".github/capa-projeto-fortnite.png" alt="Imagem site" width=auto></a>
 </p>
 
 <h1 align="center">Projeto Site Fortnite - Evento Big Bang</h1>
